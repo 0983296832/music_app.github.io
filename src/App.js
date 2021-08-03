@@ -137,6 +137,7 @@ function App() {
 
   const setIndex = (index) =>{
     setCurrentIndex(index) 
+    audioStart()
   }
   // const scrollTo = (currentIndex) =>{
   //   if( currentIndex > 2 ){
